@@ -236,6 +236,9 @@ margin-top: 30px ;
     text-align: center;
     margin: 0 0 50px 0;
 }
+.section-galery{
+    padding-top: 0;
+}
 .galery{
     padding-left: 0;
     display: flex;
