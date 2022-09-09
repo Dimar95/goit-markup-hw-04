@@ -39,6 +39,7 @@ body{
     padding-bottom: 32px;
     display: block;
     text-decoration: none;
+
     /* background-color: tan; */
     
 }
@@ -50,6 +51,7 @@ body{
 .site-nav .link:hover, .site-nav .link:focus {
     color: #2196F3;
 }
+
 .site-nav{
     display: flex;
     margin-left: 93px;
@@ -87,24 +89,30 @@ color: var(--accent-text-color);
 }
 .header-contact{
     display: flex;
-    margin-left: auto;
-    
+    margin-left: auto; 
 }
 .header-contact .item:first-child{
     margin-right: 50px;
     
 }
-
+.header-contact .item{
+    /* align-items: center; */
+}
 .header-contact .link-contact{
     color: var(--primary-text-color);
-
+    fill: var(--primary-text-color);
     text-decoration: none;
 }
-.header-contact .link-contact:hover,.header-contact .link-contact:focus {
+/* .header-contact .link-contact:hover,.header-contact .link-contact:focus {
     color: var(--accent-text-color);
+} */
+/* .header-contact .icon:hover {
+    fill: var(--accent-text-color);
+} */
+.link-hover .link-contact:hover{
+color: var(--accent-text-color);
+fill: var(--accent-text-color);
 }
-
-
 .hero-title{
     color: #fff;
 
